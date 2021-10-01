@@ -1,0 +1,32 @@
+.Details{
+    display: flex;
+    height: 100vh;
+}
+
+.details_left_image_holder{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    margin: 3%;
+}
+.details_left_Image_panel{
+    display: flex;
+    align-items: center;
+    height: 336px;
+    width: 712px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  33px 33px 66px #929292,
+             -33px -33px 66px #ffffff;
+}
+.details_right_details_panel{
+    flex: 0.5;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p{
+    font-size: small;
+}
